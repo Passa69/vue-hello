@@ -6,6 +6,7 @@ var root = new Vue (
             nome: '',
             cognome: '',
             myClass: 'red',
+            Image: 'img/images.jpg'
         },
         methods: {
             saluta: function () {
