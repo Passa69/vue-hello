@@ -1,12 +1,18 @@
-var root = new Vue ({
-    el: '#root',
-    data: {
-        message: 'Hello World'
-    },
-    methods: {
-        saluta: function () {
-            return console.log("Ciao");;
+var root = new Vue (
+    {
+        el: '#root',
+        data: {
+            message: 'Hello World',
+            nome: '',
+            cognome: '',
+            myClass: 'red',
+        },
+        methods: {
+            saluta: function () {
+                console.log("Ciao");
+                this.myClass ="blue";
+            }
         }
-    }
 
-});
+    }
+);
